@@ -12,6 +12,95 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.webp 1920w"
+                        type="image/webp">
+                    <source
+                        sizes="1920w"
+                        srcset="img/header.png 1920w"
+                        type="image/png">
+                    <img loading="lazy" decoding="async" src="img/header.png" lazyalt="imagen" width="1000" height="500">
+                </picture>
+            </div> <!-- .imagen-header-->
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore eaque, fugit cupiditate eveniet delectus aliquam enim sapiente, dolorum nulla consectetur modi non quidem. Cum repudiandae quam animi, soluta dolores itaque?</p>
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="imagen icono">
+                <h3>Gran Sonido</h3>
+                <p>At sed dolore nam dolorum dicta amet voluptate, odio earum nesciunt, tempora doloribus sequi quam aliquam ratione dignissimos</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="imagen icono">
+                <h3>Garantía de por vida</h3>
+                <p>At sed dolore nam dolorum dicta amet voluptate, odio earum nesciunt, tempora doloribus sequi quam aliquam ratione dignissimos</p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="imagen icono">
+                <h3>+20 Horas de Batería</h3>
+                <p>At sed dolore nam dolorum dicta amet voluptate, odio earum nesciunt, tempora doloribus sequi quam aliquam ratione dignissimos</p>
+            </div>
+        </div>
+    </section>
+    <section class="sobre-tech">
+        <div class="contenedor sobre-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>Sobre los <span>TechPRO</span></h2>
+                <p>
+                At, deserunt! Molestias, accusamus, ab explicabo consequuntur fugit quia quos libero unde voluptatum eaque doloremque odio nobis delectus quod. Fuga, deserunt! Quisquam ut culpa quos repellat fugit aut neque eius.
+                Quasi, accusamus maiores doloribus, rerum dicta velit nostrum odio hic, nam dolore esse sed sunt explicabo adipisci quo magnam amet reiciendis consequuntur possimus iusto quia quidem! Alias eaque aperiam quaerat.</p>
+            </div>
+        </div>
+    </section>
+    <main class="contenedor modelos">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus TechPRO</h2>
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">$399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Aspernatur officiis quod ipsam voluptatum vel deleniti consequatur consequuntur facere tempora optio, tempore necessitatibus fugit dignissimos quidem blanditiis porro, voluptas in, obcaecati quos? Atque labore, reiciendis accusamus earum harum suscipit!</p>
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email">
+                    </div>
+                    <input type="submit" value="inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
